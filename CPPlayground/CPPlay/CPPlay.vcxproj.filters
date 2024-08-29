@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{aca1bf6b-6ef5-4606-b07e-7b40740ffd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Applications">
+      <UniqueIdentifier>{a20dc3dc-1694-49c7-a60b-fd53756968e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\DataStructs">
+      <UniqueIdentifier>{8169e9ed-80bc-4426-b60c-b3d1cee47919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\DataStructs\Partitions">
+      <UniqueIdentifier>{74ffc35d-638c-4667-9667-12b9884e60d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\DataStructs\Implementations">
+      <UniqueIdentifier>{d3411b32-81ba-482e-aa8b-f7b7ae8125f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\modules\datastructs\DataStructs.ixx">
+      <Filter>Modules\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\datastructs\List.ixx">
+      <Filter>Modules\DataStructs\Partitions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

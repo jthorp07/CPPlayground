@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\modules\datastructs\ArrayList.cpp" />
+    <ClCompile Include="src\modules\datastructs\ArrayList.ixx" />
     <ClCompile Include="src\modules\datastructs\DataStructs.ixx" />
     <ClCompile Include="src\modules\datastructs\List.ixx" />
   </ItemGroup>

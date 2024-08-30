@@ -24,5 +24,11 @@
     <ClCompile Include="src\modules\datastructs\List.ixx">
       <Filter>Modules\DataStructs\Partitions</Filter>
     </ClCompile>
+    <ClCompile Include="src\modules\datastructs\ArrayList.cpp">
+      <Filter>Modules\DataStructs\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\datastructs\ArrayList.ixx">
+      <Filter>Modules\DataStructs\Partitions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
